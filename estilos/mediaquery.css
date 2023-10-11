@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+
+/*Media query*/
+/*Estilos gerais*/
+body{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (min-width: 280px) and (max-width: 514px){
+    .container-info {
+        width: 250px;
+        
+      
+        height: 100vh;
+      }
+      /*Seção links*/
+   
+    
+    .links a{
+        gap: 10px;
+        font-size: 16px;
+       
+      }
+    .logo .perfil{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: 53px;
+        left: 24px;
+       
+      }
+      .perfil::before{
+        position: absolute;
+        width: 165px;
+        height: 165px;
+      }
+
+
+      .logo h1{
+        position: relative;
+        top: 35px;
+       
+      }
+       
+ 
+}   
+@media screen and (min-width: 514px) and (max-width: 808px){
+    .container-info {
+        width: 500px;
+      
+        height: 100vh;
+      }
+      .logo .perfil{
+        width: 150px;
+        height: 150px;
+        position: relative;
+        top: 70px;
+        left: 24px;
+       
+      }
+      .perfil::before{
+        position: absolute;
+        width: 165px;
+        height: 165px;
+      }
+      .logo h1{
+        position: relative;
+        top: 42px;
+       
+      }
+
+    
+
+       
+ 
+}   
